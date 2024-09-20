@@ -42,38 +42,38 @@ QTI 3 Playerには、形成的または教室での評価設定に最適化さ�
 
 
 
-## Getting Started
+## 始めよう
 
-### 1. Clone the repo
+### 1. リポジトリをクローンする
 ```sh
 git clone https://github.com/amp-up-io/qti3-item-player-vue3.git
 ```
 
-### 2. Install Node.js >= 20
-QTI 3 Player for Vue 3 has been built and tested with Node v20.14.0.
+### 2. Node.js >= 20をインストールする。
+QTI 3 Player for Vue 3は、Node v20.14.0でビルドされ、テストされています。
 
-### 3. Installation
-QTI 3 Player for Vue 3 includes a dependency on Vue 3, and a dependency on Vite for bundling.
+### 3. インストール
+QTI 3 Player for Vue 3は、Vue 3への依存と、バンドル用のViteへの依存を含んでいます。
 
 ```sh
 npm install
 ```
 
-### 4. Compiles and hot-reloads for development
+### 4. 開発用にコンパイルしてホットロードする
 ```sh
 npm run dev
 ```
 
-### 5. Compiles, minifies, creates package
+### 5. コンパイル、minify、パッケージ作成
 ```sh
 npm run build
 ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">先頭に戻る</a>)</p>
 
 
 
-## Usage
+## 使用方法
 
 ### 1. Install QTI 3 Player
 
