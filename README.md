@@ -1,4 +1,4 @@
-# Amp-up.io QTI 3 Item Player Component for Vue 3
+# Amp-up.io QTI 3 Item Player コンポーネント（Vue 3対応版）
 
 <div id="top"></div>
 
@@ -9,22 +9,22 @@
 </a>
 
 
+これは、元々Vue 2.6で構築されたオリジナルのAmp-up.io QTI 3 Item Player Component (「QTI 3 Player」) の**Vue 3バージョン**です。
 
-This is the **Vue 3 version** of the original Amp-up.io QTI 3 Item Player Component ("QTI 3 Player") which was originally built with Vue 2.6.
+QTI 3 Playerは、1EdTech QTI 3 Assessment **Item**仕様のベストプラクティスと動作をカプセル化することを目的とした100%JavaScriptコンポーネントです。
 
-The QTI 3 Player is a 100% JavaScript component that aims to encapsulate the best practices and behaviors of the 1EdTech QTI 3 Assessment **Item** specification.
-
-A conforming QTI 3 authoring or exporting system can construct a QTI 3 Item XML solution that will "play" authentically and reliably in the QTI 3 Player - according to the Best Practices Implementation Guide which can be found here:
+QTI 3に準拠したオーサリングまたはエクスポートシステムは、QTI 3 Playerで真正かつ確実に「再生」するQTI 3 Item XMLソリューションを構築できます。すべてはベストプラクティス実施ガイドに従っています。
 
 [1EdTech QTI v3 Best Practices and Implementation Guide](https://www.imsglobal.org/spec/qti/v3p0/impl)
 
+QTI 3 Playerは、1EdTechの<a href=「https://site.imsglobal.org/certifications/amp-upio/amp-upio-qti-3-test-player」 target=「_blank」>QTI 3 BasicおよびQTI 3 Advanced「配信」適合性認証</a>の両方を取得しています。 さらに、QTI 3 Playerは、Advanced配信適合性を超える、いわゆる「選択」機能を数多くサポートしています。
 QTI 3 Player has achieved both <a href="https://site.imsglobal.org/certifications/amp-upio/amp-upio-qti-3-test-player" target="_blank">QTI 3 Basic and QTI 3 Advanced "Delivery" Conformance</a> Certification from 1EdTech.  Furthermore, QTI 3 Player supports many so-called "Elective" capabilities that go beyond Advanced delivery conformance. 
 
-For a complete list of the QTI3 XML elements supported by the QTI 3 Player component, please refer to the [QTI 3 Player Item Reference](https://docs.google.com/document/d/1KCImUAk-2uBqSOHRO1lJa1orrzF4b8cl/#heading=h.gjdgxs).
+QTI 3 PlayerコンポーネントがサポートするQTI3 XML要素の完全なリストについては、[QTI 3 Player Item Reference](https://docs.google.com/document/d/1KCImUAk-2uBqSOHRO1lJa1orrzF4b8cl/#heading=h.gjdgxs)を参照してください。これは、元々Vue 2.6で構築されたオリジナルのAmp-up.io QTI 3 Item Player Component (「QTI 3 Player」)の**Vue 3バージョン**です。
 
 
 
-## About The Project
+## プロジェクトについて
 
 The QTI 3 Player has API's, interfaces, and capabilities which are optimized for formative or classroom assessment settings.  Such settings typically require sophisticated QTI features such as adaptive items, item templating (sometimes called item "cloning"), template processing, and full response processing; i.e., scoring.  The QTI 3 Player implements the full expressive QTI 3 Item XML vocabulary according to best practices.  Consequently, you don't have to know anything about QTI.  Just install the component in your project, inject XML, and go!  In the following demo, a "TestRunner" application embeds the QTI 3 Player component for Item Rendering.
 
